@@ -1,5 +1,5 @@
 import sys
-input=sys.stdin.readline().rstrip()
+input=sys.stdin.readline.rstrip()
 
 arr=input()
 li_arr=list(arr)
