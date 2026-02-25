@@ -1,8 +1,8 @@
 import sys
-input=sys.stdin.readline.rstrip()
+input = sys.stdin.readline
 
-arr=input()
-li_arr=list(arr)
+arr = input().rstrip()
+li_arr = list(arr)
 number=[int(input()) for _ in range(len(arr)-1)]
 
 for i in number:
