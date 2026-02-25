@@ -1,5 +1,2 @@
 arr=input()
-li_arr=list(arr)
-li_arr.pop(2)
-li_arr.pop(-2)
-print(''.join(li_arr))
+print(arr[:1]+arr[2:len(arr)-2]+arr[-1])
