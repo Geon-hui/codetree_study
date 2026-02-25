@@ -1,3 +1,6 @@
+import sys
+input=sys.stdin.readline().rstrip()
+
 arr=input()
 li_arr=list(arr)
 number=[int(input()) for _ in range(len(arr)-1)]
