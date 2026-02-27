@@ -1,6 +1,6 @@
 small=input()
 
-if small!=a:
+if small!='a':
     print(chr(ord(small)-1))
 else:
     print('z')
